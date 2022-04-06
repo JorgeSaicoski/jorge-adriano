@@ -20,7 +20,7 @@ function About() {
     });
   })
   return (
-    <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 ease-out duration-1000 opacity-0 w-full" id="about">
+    <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 slowly opacity-0 w-full" id="about">
       <Card name="race" className="ease-out duration-1000" image={race} description="Ferrari Fan"/>
       <Card name="race" image={race}/>
       <Card name="race" image={race}/>

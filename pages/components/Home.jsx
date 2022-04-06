@@ -1,4 +1,6 @@
 import React, {useState, useEffect} from 'react'
+import HomeEfect from "./HomeEfect"
+
 
 function Home() {
   const [showText, setShowText] = useState(0)
@@ -37,16 +39,16 @@ function Home() {
    }
 },[showText]);
   return (
-    <section className="m-10 mt-56 sm:mt-40 h-screen items-center flex flex-col">
-      <p className="text-base w-full flex justify-center">Jorge Adriano's WebSite</p>
-      <div className="group flex flex-row justify-between sm:text-6xl text-3xl w-full h-full">
-        <div className="flex justify-center items-center h-full m-10">
-          <div className="relative font-mono ">
-            <p className="absolute top-5 left-0 opacity-0  tracking-widest " id="text1" >Beatifull WebSite</p>
-            <p className="absolute top-5 left-0 opacity-0  tracking-widest " id="text2" >eCommerce</p>
-            <p className="absolute top-5 left-0 opacity-0  tracking-widest " id="text3" >Finances Help</p>
+    <section className="m-10 mt-56 sm:mt-40 items-center flex flex-col">
+      <div className="group flex flex-row flex-wrap justify-between sm:text-6xl text-3xl w-full h-full">
+        <div className="flex justify-start items-center h-full mt-[50%] w-1/2">
+          <div className="relative font-mono">
+            <p className="absolute top-5 left-0 opacity-0  tracking-widest faster" id="text1" >Beatifull WebSite</p>
+            <p className="absolute top-5 left-0 opacity-0  tracking-widest faster" id="text2" >eCommerce</p>
+            <p className="absolute top-5 left-0 opacity-0  tracking-widest faster" id="text3" >Finances Help</p>
           </div>
         </div>
+        <HomeEfect/>
       </div>
 
     </section>
