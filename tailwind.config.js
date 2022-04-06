@@ -11,7 +11,6 @@ module.exports = {
       'focus': '#9FFFCB',
       'second': '#7AE582',
     },
-    
   },
   plugins: [],
 }

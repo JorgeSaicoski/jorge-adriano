@@ -12,7 +12,7 @@ function HomeEfect() {
     const middle = document.getElementById('middle')
     const right = document.getElementById('right')
     const speed = 4
-    const limit = (50/speed)
+    const limit = (60/speed)
 
     if (stage < limit) {
       setLeft(leftTop + speed)
@@ -76,8 +76,8 @@ function HomeEfect() {
  },[move]);
 
   return (
-    <div className="flex justify-center items-center h-screen m-10 w-1/3" onMouseOver={move}>
-      <div className="relative font-mono text-textColor text-base p-1 h-screen w-full">
+    <div className="flex justify-center items-center h-screen sm:m-10 sm:p-10 sm:w-1/3 w-2/3">
+      <div className="relative font-mono text-textColor text-base  h-screen w-full">
         <FastForwardIcon className="absolute left-0 w-20 faster rotate-90" id="left"/>
         <GlobeIcon className="absolute left-1/2 w-20 faster animate-spin" id="middle"/>
         <HomeIcon className="absolute left-full w-20 faster"  id="right"/>

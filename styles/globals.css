@@ -4,6 +4,7 @@
 
 .slowly{
   transition: ease-out 5s;
+
 }
 .faster{
   transition: ease-in 0.5s;
