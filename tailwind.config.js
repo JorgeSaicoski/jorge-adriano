@@ -5,11 +5,13 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'headerColor': '#004E64',
-      'bodyColor': '#00A5CF',
-      'textColor': '#25A18E',
-      'focus': '#9FFFCB',
-      'second': '#7AE582',
+      'headerColor': '#172A3A',
+      'bodyColor': "#36827F",
+      'textColor': '#621708',
+      'focus': '#F7EE7F',
+      'second': '#F18F01',
+      'ligth' : '#877666' ,
+      'black' : '#4F5050',
     },
   },
   plugins: [],

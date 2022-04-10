@@ -39,10 +39,10 @@ function Home() {
    }
 },[showText]);
   return (
-    <section className="m-10 sm:mt-40 sm:mr-0 items-center flex flex-col">
-      <div className="group flex flex-row flex-wrap justify-between sm:text-6xl text-3xl w-full h-full">
-        <div className="flex justify-start items-center h-full mt-[50%] w-1/2">
-          <div className="relative mb-[50%] font-mono">
+    <section className="pt-40 sm:pt-0 items-center flex flex-col" id="start">
+      <div className="group flex flex-row flex-wrap justify-between sm:text-6xl text-3xl w-full">
+        <div className="flex justify-start items-center w-1/2">
+          <div className="relative font-mono">
             <p className="absolute top-5 left-0 opacity-0  tracking-widest faster" id="text1" >Beatifull WebSite</p>
             <p className="absolute top-5 left-0 opacity-0  tracking-widest faster" id="text2" >eCommerce</p>
             <p className="absolute top-5 left-0 opacity-0  tracking-widest faster" id="text3" >Finances Help</p>
