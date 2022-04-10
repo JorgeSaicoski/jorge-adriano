@@ -8,11 +8,11 @@ function Header() {
         <p className="text-ligth">Jorge Adriano</p>
       </div>
       <div className="flex flex-grow items-center justify-evenly w-full max-w-lg pt-2">
-        <a href="#start"><HeaderItems title="HOME" Icon={HomeIcon}/></a>
-        <a href="#aboutMe"><HeaderItems title="ABOUT" Icon={FilmIcon}/></a>
-        <a href="#portfolio"><HeaderItems title="PORTFOLIO" Icon={CodeIcon}/></a>
-        <a href="#websitesprices"><HeaderItems title="WEB-SITES" Icon={ShoppingCartIcon}/></a>
-        <a href="#hire"><HeaderItems title="HIRE" Icon={StarIcon}/></a>
+        <a href="#start"><HeaderItems title="HOME"/></a>
+        <a href="#aboutMe"><HeaderItems title="ABOUT"/></a>
+        <a href="#portfolio"><HeaderItems title="PORTFOLIO"/></a>
+        <a href="#websitesprices"><HeaderItems title="WEB-SITES"/></a>
+        <a href="#hire"><HeaderItems title="HIRE"/></a>
       </div>
     </header>
   )

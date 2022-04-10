@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 
-function SectorDivese({nameSector,idTitle,Icon}) {
+function SectorDivese({nameSector,idTitle}) {
   const [top, setTop] = useState(0)
   const [bottom, setBottom] = useState(0)
   useEffect(()=>{

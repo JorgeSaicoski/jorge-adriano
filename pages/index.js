@@ -15,13 +15,13 @@ export default function Home() {
     <h1 className="bg-gradient-to-b bg-fixed from-bodyColor to-ligth text-3xl font-bold flex flex-col justify-center">
       <Header/>
       <Start/>
-      <SectorDivese nameSector="About me" idTitle="aboutMe" Icon={FilmIcon}/>
+      <SectorDivese nameSector="About me" idTitle="aboutMe" />
       <About/>
-      <SectorDivese nameSector="Portfolio" idTitle="portfolio" Icon={CodeIcon}/>
+      <SectorDivese nameSector="Portfolio" idTitle="portfolio" />
       <Portfolio/>
-      <SectorDivese nameSector="Website Prices" idTitle="websitesprices" Icon={ShoppingCartIcon}/>
+      <SectorDivese nameSector="Website Prices" idTitle="websitesprices" />
       <Websites/>
-      <SectorDivese nameSector="Hire me" idTitle="hire" Icon={StarIcon}/>
+      <SectorDivese nameSector="Hire me" idTitle="hire" />
       <Contact/>
 
     </h1>
