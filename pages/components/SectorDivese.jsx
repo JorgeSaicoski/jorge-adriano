@@ -26,7 +26,6 @@ function SectorDivese({nameSector,idTitle,Icon}) {
   return (
     <div className="overflow-hidden h-32 sm:h-20 w-0 bg-headerColor text-focus rounded-br-[5vh] rounded-tl-lg slowly sm:m-12 relative background-title" id={`${idTitle}`}>
       <p className="absolute top-1/3">{nameSector}</p>
-      <Icon className="absolute right-1.5 top-0 h-full"/>
     </div>
   )
 }
