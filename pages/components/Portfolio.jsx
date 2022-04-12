@@ -14,12 +14,12 @@ function Portfolio() {
         if (top<(800) && bottom>(400)) {
           portfolio.classList.remove("w-0")
           portfolio.classList.add("w-full")
-          console.log("teste2222")
+
         }
         else{
           portfolio.classList.add("w-0")
           portfolio.classList.remove("w-full")
-          console.log("teste")
+
         }
 
     });

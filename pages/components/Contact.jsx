@@ -19,8 +19,10 @@ function Contact() {
 	 	  orden.email = email
 			orden.text = message
 			setDoc(newMessage, orden);
-  		alert("Your number order is: "+newMessage.id)
+  		alert("it is not working")
+
  		}
+
 
 
 
