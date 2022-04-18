@@ -28,7 +28,7 @@ function Contact() {
 
   return (
     <section className="background-efect h-screen">
-      <form className="w-full p-10 flex flex-col justify-evenly" onSubmit={handleSubmit}>
+      {/*<form className="w-full p-10 flex flex-col justify-evenly" onSubmit={handleSubmit}>
         <div className="flex flex-col w-full md:items-center mb-6">
           <div className="w-full">
             <label className="block text-center text-second font-bold mb-1 md:mb-0 pr-4 bg-textColor rounded-br-full rounded-tr-full">
@@ -68,6 +68,21 @@ function Contact() {
           </div>
         </div>
       </form>
+      */}
+      <div className="rounded m-10 bg-headerColor">
+        <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between">
+          <h2 className="text-3xl font-extrabold tracking-tight text-textColor sm:text-4xl">
+            <span className="block">Phone: +598 93 309 600</span>
+            <span className="block text-ligth">E-mail: sarkis@jorgeadriano</span>
+          </h2>
+          <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+            <div className="inline-flex rounded-md shadow">
+              <a href="mailto: sarkis@jorgeadriano.com" className="inline-flex items-center justify-center px-5 py-3 border border-textColor text-base font-medium rounded-md text-black bg-second hover:bg-focus"> Send-me a message </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <div className="w-full flex flex-row flex-wrap justify-evenly p-20">
         <a href="https://uy.linkedin.com/in/jorge-saicoski?trk=profile-badge" className="w-1/3 bg-headerColor hover:bg-focus p-2 rounded-md">
           <Image
